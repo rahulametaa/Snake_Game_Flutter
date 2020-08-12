@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   List<List<int>> grid=List<List<int>>.generate(row, (i) =>List<int>.generate(col, (j) => 0));
   Snake sn=new Snake();
   Food food=Food();
-  String status='Tap to start';
+  String status='Tape to start';
   int score=0;
   bool isGameOver=false;
   String diffLevel='medium';
